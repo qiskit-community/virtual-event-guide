@@ -1,7 +1,52 @@
 <!doctype html>
 
+<head>
+<style>
+
+html {
+	height: 100%;
+}
+
+body {
+	font-family: "Helvetica Neue";
+	height: 100%;
+	margin: 0px;
+}
+
+a {
+	color: #7f4cf3;
+}
+
 	
-/*     Typography Status: Final Testing	*/
+.header {
+	background-color: #7f4cf3;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 90px;
+	font-size: 50px;
+	z-index: 10;
+	padding: 40px 22px;
+}
+
+.content {
+	height: 200px;
+	position: absolute;
+	top: 60px;
+	padding: 10px;
+	z-index: 0;
+}
+
+.footer {
+	background-color: #7f4cf3;
+	position: fixed;
+	bottom: 0px;
+	height: 45px;
+	width: 100%;
+	z-index: 10;
+	padding-bottom: 44px;
+  	padding-top: 44px;
+}
 
 
 .h1, h3, h4, h5, p {
@@ -73,22 +118,6 @@
   color: #000000;
 } 
 	
-/*	Primary Header	*/
-	
-.header {
-  border-top: 4px solid #648880;
-  padding: 40px 0 22px 0;
-  float: left;
-  class="container group";
-}
-
-/*	Primary Header	*/
-	
-.primary-footer small {
-  float: left;
-}
-
-.primary-footer {
-  padding-bottom: 44px;
-  padding-top: 44px;
-}
+</style>
+</head>
+</html>
