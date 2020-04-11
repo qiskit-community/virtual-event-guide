@@ -10,7 +10,47 @@
     
 	</head>
   <style>
+	  
+	html {
+		height: 100%;
+	}
 
+	body {
+		font-family: "Arial";
+		height: 100%;
+		margin: 0px;
+	}
+
+	.header {
+		background-color: #7f4cf3;
+		position: fixed;
+		top: 0px;
+		width: 100%;
+		height: 120px;
+		font-size: 50px;
+		z-index: 10;
+	}
+
+	.content {
+		height: 200px;
+		position: absolute;
+		top: 60px;
+		left: 15%;
+		padding: 10px;
+		z-index: 0;
+	}
+
+	.footer {
+		background-color: #7f4cf3;
+		position: fixed;
+		bottom: 0px;
+		height: 45px;
+		width: 100%;
+		z-index: 10;
+		padding-bottom: 44px;
+		padding-top: 44px;
+	}
+	  
 h1 {
   font-family: "Trebuchet MS", "Helvetica", sans-serif;
   font-size: 32px;
@@ -83,20 +123,20 @@ body {
 } 
 
 .sidenav {
-  width: 200px;
+  width: 300px;
   position: absolute;
   z-index: 1;
-  top: 20px;
+  top: 120px;
   left: 10px;
   background: #000000;
   overflow-x: hidden;
-  padding: 8px 0;
+  padding: 8px 8px;
 }
 
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 18px;
   color: #FFFFFF;
   display: block;
 }
@@ -106,8 +146,8 @@ body {
 }
 
 .main {
-  margin-left: 210px; 
-  font-size: 14px;
+  margin-left: 310px; 
+  font-size: 16px;
   padding: 0px 10px;
 }
 
