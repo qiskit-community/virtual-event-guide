@@ -1,3 +1,5 @@
+<div markdown="1">
+
 /*    Layout	*/
 
 
@@ -44,19 +46,19 @@ section {
 
 .container group {
   margin: 0 auto;
-  padding-left: 30 px;
-  padding-right: 30 px;
-  width: 960 px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 960px;
 }
 
 .container,
 .grid {
   margin: 0 auto;
-  width: 960 px;
+  width: 960px;
 }
 .container {
-  padding-left: 30 px;
-  padding-right: 30 px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 
@@ -88,12 +90,12 @@ section {
 
 
 .h1, h3, h4, h5, p {
-  margin-bottom: 22 px;
+  margin-bottom: 22px;
 }
 
 .h1 {
   font-family: “Helvetica Neue”, “Helvetica”, “Lucida Sans” sans-serif;
-  font-size: 48 px;
+  font-size: 48px;
   font-weight: 900;
   line-height:150%;
   text-align: left;
@@ -102,7 +104,7 @@ section {
 	
 .h2 {
   font-family: “Helvetica Neue”, “Helvetica”, “Lucida Sans” sans-serif;
-  font-size: 34 px;
+  font-size: 34px;
   font-weight: 700;
   line-height:150%;
   text-align: left;
@@ -111,7 +113,7 @@ section {
 	
 .h3 {
   font-family: “Helvetica Neue”, “Helvetica”, “Lucida Sans” sans-serif;
-  font-size: 64 px;
+  font-size: 64px;
   font-weight: 600;
   line-height:150%;
   text-align: left;
@@ -120,7 +122,7 @@ section {
 	
 .h4 {
   font-family: “Helvetica Neue”, “Helvetica”, “Lucida Sans” sans-serif;
-  font-size: 52 px;
+  font-size: 52px;
   font-weight: 600;
   line-height:150%;
   text-align: left;
@@ -129,7 +131,7 @@ section {
 	
 .h5 {
   font-family: “Helvetica Neue”, “Helvetica”, “Lucida Sans” sans-serif;
-  font-size: 48 px;
+  font-size: 48px;
   font-variant: small-caps;
   font-weight: 500;
   line-height:150%;
@@ -139,7 +141,7 @@ section {
 	
 .h6 {
   font-family: “Helvetica Neue”, “Helvetica”, “Lucida Sans” sans-serif;
-  font-size: 42 px;
+  font-size: 42px;
   font-variant: small-caps;
   font-weight: 400;
   line-height:150%;
@@ -149,7 +151,7 @@ section {
 	
 .body {
   font-family: “Helvetica Neue”, “Helvetica”, “Lucida Sans” sans-serif;
-  font-size: 36 px;
+  font-size: 36px;
   font-weight: normal;
   line-height:150%;
   text-align: left;
