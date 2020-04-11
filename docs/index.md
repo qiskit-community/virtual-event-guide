@@ -1,5 +1,3 @@
-<html>
-  
 <div markdown="1">
 
 	<head>
@@ -43,4 +41,4 @@
 	
   </body>
 
-</html>
+</div>
