@@ -37,3 +37,28 @@
 		padding-bottom: 44px;
 		padding-top: 44px;
 	}
+
+.sidebar {
+  margin: 0;
+  padding: 10px;
+  width: 400px;
+  background-color: #000000;
+  position: absolute;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  float: left;
+  display: block;
+  text-align: left;
+  color: #FFFFFF;
+  font-size: 14px;
+  padding: 8px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: #7f4cf3;
+  color: #7f4cf3;
+}
