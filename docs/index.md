@@ -1,6 +1,8 @@
-<div markdown="1">
+<!doctype html>
 
-<head>
+<html>
+  
+<div markdown="1">
 
 <html lang="en">
 
@@ -9,7 +11,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
   
 <link type="text/css" rel="stylesheet" href="docs/main.css"/>
-     
+
+<head>
+
 <header class="container group">
    <h1 class="logo">
       <h1>Qiskit Virtual Event Guide</h1> 
