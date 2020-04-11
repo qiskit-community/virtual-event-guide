@@ -1,4 +1,4 @@
-<div markdown="1">
+<!doctype html>
 
 /*    Layout	*/
 
@@ -94,7 +94,7 @@ section {
 }
 
 .h1 {
-  font-family: “Helvetica Neue”, “Helvetica”, “Lucida Sans” sans-serif;
+  font-family:  "Helvetica Neue", "Helvetica", "Lucida Sans", sans-serif;
   font-size: 48px;
   font-weight: 900;
   line-height:150%;
@@ -103,7 +103,7 @@ section {
 }	
 	
 .h2 {
-  font-family: “Helvetica Neue”, “Helvetica”, “Lucida Sans” sans-serif;
+  font-family: "Helvetica Neue", "Helvetica", "Lucida Sans", sans-serif;
   font-size: 34px;
   font-weight: 700;
   line-height:150%;
@@ -112,7 +112,7 @@ section {
 }
 	
 .h3 {
-  font-family: “Helvetica Neue”, “Helvetica”, “Lucida Sans” sans-serif;
+  font-family:  "Helvetica Neue", "Helvetica", "Lucida Sans", sans-serif;
   font-size: 64px;
   font-weight: 600;
   line-height:150%;
@@ -121,7 +121,7 @@ section {
 }	
 	
 .h4 {
-  font-family: “Helvetica Neue”, “Helvetica”, “Lucida Sans” sans-serif;
+  font-family:  "Helvetica Neue", "Helvetica", "Lucida Sans", sans-serif;
   font-size: 52px;
   font-weight: 600;
   line-height:150%;
@@ -130,7 +130,7 @@ section {
 }
 	
 .h5 {
-  font-family: “Helvetica Neue”, “Helvetica”, “Lucida Sans” sans-serif;
+  font-family: "Helvetica Neue", "Helvetica", "Lucida Sans", sans-serif;
   font-size: 48px;
   font-variant: small-caps;
   font-weight: 500;
@@ -140,7 +140,7 @@ section {
 }	
 	
 .h6 {
-  font-family: “Helvetica Neue”, “Helvetica”, “Lucida Sans” sans-serif;
+  font-family: "Helvetica Neue", "Helvetica", "Lucida Sans", sans-serif;
   font-size: 42px;
   font-variant: small-caps;
   font-weight: 400;
@@ -150,7 +150,7 @@ section {
 }	
 	
 .body {
-  font-family: “Helvetica Neue”, “Helvetica”, “Lucida Sans” sans-serif;
+  font-family: "Helvetica Neue", "Helvetica", "Lucida Sans", sans-serif;
   font-size: 36px;
   font-weight: normal;
   line-height:150%;
