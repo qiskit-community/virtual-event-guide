@@ -12,10 +12,7 @@
      
 <header class="container group">
    <h1 class="logo">
-      <a href="docs/index.html">Qiskit Virtual Event Guide</a>
-
-    <h1> Header 1 content here </h1>
-    <h3> Header 3 - reporting for duty! </h3>   
+      <h1>Qiskit Virtual Event Guide</h1> 
     
     <nav>
       <a href="docs/pages/downloads.html">Downloads</a> <br>
@@ -24,10 +21,6 @@
     </nav>
   
   <section>
-    <h2> Header 2 was feeling left out! </h2>
-    <p> And this little pppppp went alllll the way home. </p>
-    
-  </section>
   
 <h1>Heading Level 1</h1>
 
@@ -41,17 +34,9 @@
 
 <h6>Heading Level 6</h6>
 
-
-  <section> 
-    <section>
-      <h5> Five - here but not forgotten! </h5>
-      <p> Five is kinda a boring number I really got nothing here, not even worth a nickel - HA. </p>
-    </section>
-  ...
-  </section>
+ </section>
+ 
   
   <footer class="primary-footer container group">
     <small> We are very super famous super famous super famous </small>
   </footer>
-  
-</div>
