@@ -1,4 +1,4 @@
-<!doctype html>
+<div markdown="1">
 
 <head>
 
@@ -9,17 +9,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
   
 <link type="text/css" rel="stylesheet" href="docs/main.css"/>
-  
-<div class="header">
-  <a href="#default" class="logo">Qiskit Virtual Event Planning Guide</a>
-</div>
-
-</head>
      
-  <header class="container group">
+<header class="container group">
    <h1 class="logo">
       <a href="docs/index.html">Qiskit Virtual Event Guide</a>
-  </header>
 
     <h1> Header 1 content here </h1>
     <h3> Header 3 - reporting for duty! </h3>   
@@ -50,4 +43,4 @@
     <small> We are very super famous super famous super famous </small>
   </footer>
   
-</html>
+</div>
