@@ -12,8 +12,9 @@ html {
 	background-color: #7f4cf3;
 	position: fixed;
 	width: 100%;
-	height: 100px;
+	height: 110px;
 	z-index: 10;
+	top:0px;
 	padding: 10px;
 	Font-size: 50px;
 }  
@@ -72,25 +73,25 @@ h6 {
 	font-family: "Trebuchet MS", "Helvetica", sans-serif;
 	height: 200px;
 	position: absolute;
-	top: 105px;
-	left: 15%;
+	top: 145px;
+	bottom: 35px;
 	padding: 10px;
 	z-index: 0;
-	margin-left: 360px;
+	margin-left: 500px;
 }
 .main {
 	font-family: "Trebuchet MS", "Helvetica", sans-serif;
 	height: 200px;
 	position: absolute;
-	top: 105px;
-	left: 15%;
+	top: 145px;
+	bottom: 35px;
 	padding: 10px;
 	z-index: 0;
-	margin-left: 360px;
+	margin-left: 500px;
 }	  
 .sidenav {
-  width: 300px;
-	height:100%;
+  width: 450px;
+  height:100%;
   position: fixed;
   z-index: 5;
   top: 105px;
@@ -104,11 +105,12 @@ h6 {
 .sidenav a {
   padding: 10px;
   text-decoration: none;
+  font-family: "Trebuchet MS", "Helvetica", sans-serif;
   font-size: 20px;
   color: #FFFFFF;
   display: block;
-  bottom: 5px;
-  top: 105px;
+  bottom: 35px;
+  top: 145px;
   left: 10px;
 }
 
@@ -133,4 +135,3 @@ h6 {
 	font-size: 10px;
 	color: #FFFFFF;
 }
-	  
