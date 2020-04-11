@@ -38,6 +38,41 @@
 		padding-top: 44px;
 	}
 
+/* GRID  */
+
+
+.col-1-3 {
+  width: 33.33%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.col-2-3 {
+  width: 66.66%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.grid,
+.col-1-3,
+.col-2-3 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container,
+.grid {
+  margin: 0 auto;
+  width: 960px;
+}
+.container {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+
+
 .sidebar {
   margin: 0;
   padding: 10px;
