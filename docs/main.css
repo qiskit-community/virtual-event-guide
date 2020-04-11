@@ -1,121 +1,39 @@
-<head>
-<style>
+	html {
+		height: 100%;
+	}
 
-html {
-	height: 100%;
-}
+	body {
+		font-family: "Arial";
+		height: 100%;
+		margin: 0px;
+	}
 
-body {
-	font-family: "Helvetica Neue";
-	height: 100%;
-	margin: 0px;
-}
+	.header {
+		background-color: #7f4cf3;
+		position: fixed;
+		top: 0px;
+		width: 100%;
+		height: 90px;
+		font-size: 50px;
+		z-index: 10;
+	}
 
-a {
-	color: #7f4cf3;
-}
+	.content {
+		height: 200px;
+		position: absolute;
+		top: 60px;
+		left: 15%;
+		padding: 10px;
+		z-index: 0;
+	}
 
-	
-.header {
-	background-color: #7f4cf3;
-	position: fixed;
-	top: 0px;
-	width: 100%;
-	height: 90px;
-	font-size: 50px;
-	z-index: 10;
-	padding: 40px 22px;
-}
-
-.content {
-	height: 200px;
-	position: absolute;
-	top: 60px;
-	padding: 10px;
-	z-index: 0;
-}
-
-.footer {
-	background-color: #7f4cf3;
-	position: fixed;
-	bottom: 0px;
-	height: 45px;
-	width: 100%;
-	z-index: 10;
-	padding-bottom: 44px;
-  	padding-top: 44px;
-}
-
-
-.h1, h3, h4, h5, p {
-  margin-bottom: 22px;
-}
-
-.h1 {
-  font-family:  "Helvetica Neue", "Helvetica", "Lucida Sans", sans-serif;
-  font-size: 48px;
-  font-weight: 900;
-  line-height:150%;
-  text-align: left;
-  color: #7f4cf3;
-}	
-	
-.h2 {
-  font-family: "Helvetica Neue", "Helvetica", "Lucida Sans", sans-serif;
-  font-size: 34px;
-  font-weight: 700;
-  line-height:150%;
-  text-align: left;
-  color: #000000;
-}
-	
-.h3 {
-  font-family:  "Helvetica Neue", "Helvetica", "Lucida Sans", sans-serif;
-  font-size: 64px;
-  font-weight: 600;
-  line-height:150%;
-  text-align: left;
-  color: #000000;
-}	
-	
-.h4 {
-  font-family:  "Helvetica Neue", "Helvetica", "Lucida Sans", sans-serif;
-  font-size: 52px;
-  font-weight: 600;
-  line-height:150%;
-  text-align: left;
-  color: #000000;
-}
-	
-.h5 {
-  font-family: "Helvetica Neue", "Helvetica", "Lucida Sans", sans-serif;
-  font-size: 48px;
-  font-variant: small-caps;
-  font-weight: 500;
-  line-height:150%;
-  text-align: left;
-  color: #000000;
-}	
-	
-.h6 {
-  font-family: "Helvetica Neue", "Helvetica", "Lucida Sans", sans-serif;
-  font-size: 42px;
-  font-variant: small-caps;
-  font-weight: 400;
-  line-height:150%;
-  text-align: left;
-  color: #000000;
-}	
-	
-.body {
-  font-family: "Helvetica Neue", "Helvetica", "Lucida Sans", sans-serif;
-  font-size: 36px;
-  font-weight: normal;
-  line-height:150%;
-  text-align: left;
-  color: #000000;
-} 
-	
-</style>
-</head>
-</html>
+	.footer {
+		background-color: #7f4cf3;
+		position: fixed;
+		bottom: 0px;
+		height: 45px;
+		width: 100%;
+		z-index: 10;
+		padding-bottom: 44px;
+		padding-top: 44px;
+	}
