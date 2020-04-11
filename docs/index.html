@@ -75,13 +75,47 @@ h6 {
 	
 body {
   font-family: "Trebuchet MS", "Helvetica", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: normal;
   line-height:150%;
   text-align: left;
   color: #000000;
 } 
-	
+
+.sidenav {
+  width: 200px;
+  position: absolute;
+  z-index: 1;
+  top: 20px;
+  left: 10px;
+  background: #000000;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #FFFFFF;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #7f4cf3;
+}
+
+.main {
+  margin-left: 210px; 
+  font-size: 14px;
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+	    
 </style>
   
 <div class="header">
@@ -89,7 +123,7 @@ body {
     <p> <small> Take your next event to the virtual level today! </small> </p>
 </div>
 	
-<div class="sidebar">
+<div class="sidenav">
   <nav>
 	  <a href="#HelloQiskitters">News</a>
 	  <a href="#Section1Overview">Hello Qiskitters!</a>
@@ -106,7 +140,7 @@ body {
   </nav>
 </div>	
 	
-<div class="content">
+<div class="main">
   
 <h1 id="HelloQiskitters"> Hello Qiskitters! </h1>
 
