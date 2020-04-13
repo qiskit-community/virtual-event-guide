@@ -125,6 +125,19 @@ hr {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 .footer {
 	font-family: "Trebuchet MS", "Helvetica", sans-serif;
 	background-color: #7f4cf3;
@@ -222,11 +235,17 @@ If you want to create a more interactive presenting experience, where the partic
 <p> Between the portability of the Nintendo Switch, the huge boom of games available on PC, and every other console available, meeting up inside a game world is now much more reality than the days of Tron. Some qiskitters met up in Animal Crossing recently, and even created some in-game swag items. We recommend Minecraft, Animal Crossing, or anywhere else you can show off your creativity and build the community (and friendships!).</p>	
 
 <div align="center">  
-	
+	<div class="row">
+  		<div class="column" align="center">
+			
 	<img src="https://github.ibm.com/Josie-Kies/virtual-event-guide/blob/master/docs/assets/Photos/qiskit%20QR.png?raw=true" width="35%" alt="qiskit qr">
 
+		</div>
+		<div class="column" align="center">
+			
 	<img src="https://github.ibm.com/Josie-Kies/virtual-event-guide/blob/master/docs/assets/Photos/animal%20crossing%20mod.jpg?raw=true" width="35%" alt="animal crossing mod">
-
+		</div>
+	</div>
 </div>
 	
 <h4 id="Hackathons"> Hackathons </h4>
